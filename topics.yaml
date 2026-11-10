@@ -1,0 +1,19 @@
+- id: "ep001_mirror_of_action"
+  title: "Cleansing the Mental Mirror, Yudhishthira's Ultimate Wonder & The Secret of Gita 2.47"
+  chapter: 2
+  verse: 47
+  core_question: "If you had zero anxiety about how people judge your work tomorrow, how differently would you show up right now?"
+  segments:
+    bhajan_breakdown:
+      source: "corpus"
+      corpus_id: "hanuman_chalisa_1_6"
+      focus: "Why Tulsidas begins Hanuman Chalisa not by asking for miracles, but by cleaning the mirror of the mind (man-mukuru) and removing klesha and vikaara."
+    itihasa_story:
+      source: "corpus"
+      corpus_id: "mahabharata_yaksha_prashna"
+      focus: "The poisoned lake in Vana Parva where four Pandavas fell because of impatience, and how Yudhishthira's stillness answered the Yaksha's question on the greatest wonder."
+    gita_awakening:
+      source: "gita"
+      chapter: 2
+      verse: 47
+      focus: "Unpacking Karmanye Vadhikaraste through Adi Shankara's Advaita lens, Bannanje Govindacharya's word-root lens on 'Adhikara', and Swami Sarvapriyananda's practical clarity."

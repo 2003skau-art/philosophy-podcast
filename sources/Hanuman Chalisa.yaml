@@ -1,0 +1,7 @@
+- id: hanuman-chalisa-1
+  title: "..."
+  type: text
+  citation: "Hanuman Chalisa, doha 1 and chaupai 1-4"
+  source_file: hanuman_chalisa.txt
+  translation_file: hanuman_chalisa.en.txt
+  lines: [1, 6]
