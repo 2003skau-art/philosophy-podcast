@@ -1,0 +1,40 @@
+name: daily-episode
+on:
+  schedule:
+    - cron: "30 10 * * *"   # 10:30 UTC = 4:00 PM IST
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Generate episode
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          
+          TOPICS_PER_EPISODE: "2"
+          TOTAL_WORDS: "2400"
+        run: python src/main.py
+      - name: Publish audio
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          D=$(date -u +%F)
+          gh release create "ep-$D" out/*.mp3 --title "Episode $D" --notes "Daily episode"
+      - name: Commit feed
+        run: |
+          git config user.name "podcast-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add docs state.json
+          git commit -m "episode $(date -u +%F)"
+          git push
