@@ -4,20 +4,29 @@
      xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Indian Philosophy in the Real World</title>
-    <link>https://YOUR_GITHUB_USERNAME.github.io/philosophy-podcast</link>
+    <link>https://2003skau-art.github.io/philosophy-podcast</link>
     <language>en-in</language>
     <itunes:author>Daily Dharma AI Agent</itunes:author>
     <description>Daily 6 PM reflections on Bhajans, Bhagavad Gita, Upanishads, Ramayana, and Mahabharata in story format.</description>
-    <itunes:image href="https://YOUR_GITHUB_USERNAME.github.io/philosophy-podcast/cover.jpg"/>
+    <itunes:image href="https://2003skau-art.github.io/philosophy-podcast/cover.jpg"/>
     <itunes:explicit>false</itunes:explicit>
     <itunes:category text="Religion &amp; Spirituality">
       <itunes:category text="Hinduism"/>
     </itunes:category>
     <item>
+      <title>You own the effort, never the result</title>
+      <description>Core Question: </description>
+      <pubDate>Sat, 14 Nov 2026 02:19:21 +0000</pubDate>
+      <enclosure url="https://2003skau-art.github.io/philosophy-podcast/episodes/gita-2-47.mp3" length="7554960" type="audio/mpeg"/>
+      <guid isPermaLink="false">gita-2-47</guid>
+      <itunes:duration>1259</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Cleansing the Mental Mirror, Yudhishthira's Ultimate Wonder &amp; The Secret of Gita 2.47</title>
       <description>Core Question: If you had zero anxiety about how people judge your work tomorrow, how differently would you show up right now?</description>
       <pubDate>Tue, 10 Nov 2026 15:07:57 +0000</pubDate>
-      <enclosure url="https://YOUR_GITHUB_USERNAME.github.io/philosophy-podcast/episodes/ep001_mirror_of_action.mp3" length="6813216" type="audio/mpeg"/>
+      <enclosure url="https://2003skau-art.github.io/philosophy-podcast/episodes/ep001_mirror_of_action.mp3" length="6813216" type="audio/mpeg"/>
       <guid isPermaLink="false">ep001_mirror_of_action</guid>
       <itunes:duration>1136</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
