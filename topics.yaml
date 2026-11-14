@@ -1,19 +1,122 @@
-- id: "ep001_mirror_of_action"
-  title: "Cleansing the Mental Mirror, Yudhishthira's Ultimate Wonder & The Secret of Gita 2.47"
-  chapter: 2
-  verse: 47
-  core_question: "If you had zero anxiety about how people judge your work tomorrow, how differently would you show up right now?"
-  segments:
-    bhajan_breakdown:
-      source: "corpus"
-      corpus_id: "hanuman_chalisa_1_6"
-      focus: "Why Tulsidas begins Hanuman Chalisa not by asking for miracles, but by cleaning the mirror of the mind (man-mukuru) and removing klesha and vikaara."
-    itihasa_story:
-      source: "corpus"
-      corpus_id: "mahabharata_yaksha_prashna"
-      focus: "The poisoned lake in Vana Parva where four Pandavas fell because of impatience, and how Yudhishthira's stillness answered the Yaksha's question on the greatest wonder."
-    gita_awakening:
-      source: "gita"
-      chapter: 2
-      verse: 47
-      focus: "Unpacking Karmanye Vadhikaraste through Adi Shankara's Advaita lens, Bannanje Govindacharya's word-root lens on 'Adhikara', and Swami Sarvapriyananda's practical clarity."
+- id: gita-2-47
+  title: "You own the effort, never the result"
+  type: gita
+  ref: {chapter: 2, verse: 47}
+  story_range: {chapter: 1, start: 28, end: 47}
+  angle: "A man frozen by fear of consequences, before he hears the answer."
+
+- id: gita-6-5
+  title: "Lift yourself by yourself"
+  type: gita
+  ref: {chapter: 6, verse: 5}
+  angle: "The mind as friend and enemy; someone defeated by their own inner voice."
+
+- id: gita-2-3
+  title: "Get up"
+  type: gita
+  ref: {chapter: 2, verse: 3}
+  story_range: {chapter: 2, start: 1, end: 9}
+  angle: "The moment after you decide to give up, and what pulls you out of it."
+
+- id: gita-2-14
+  title: "This too will pass: heat, cold, joy, pain"
+  type: gita
+  ref: {chapter: 2, verse: 14}
+  angle: "Endurance through a hard season."
+
+- id: gita-2-62
+  title: "How one thought becomes ruin"
+  type: gita
+  ref: {chapter: 2, verse: 62}
+  story_range: {chapter: 2, start: 62, end: 63}
+  angle: "A small obsession growing step by step into a wrecked decision."
+
+- id: gita-2-13
+  title: "The body changes, you stay"
+  type: gita
+  ref: {chapter: 2, verse: 13}
+  angle: "Meeting an old photo of yourself; what has changed and what has not."
+
+- id: gita-2-20
+  title: "What cannot be killed"
+  type: gita
+  ref: {chapter: 2, verse: 20}
+  angle: "Facing a loss; what remains when everything external is gone."
+
+- id: gita-3-35
+  title: "Your own path, imperfectly"
+  type: gita
+  ref: {chapter: 3, verse: 35}
+  angle: "Someone living a respectable life that belongs to somebody else."
+
+- id: gita-4-18
+  title: "Stillness inside action"
+  type: gita
+  ref: {chapter: 4, verse: 18}
+  angle: "A person who is always busy and never present, and one who is calm in chaos."
+
+- id: gita-6-35
+  title: "The restless mind can be trained"
+  type: gita
+  ref: {chapter: 6, verse: 35}
+  angle: "The honest struggle of a mind that will not sit still."
+
+- id: gita-3-21
+  title: "People copy what you do"
+  type: gita
+  ref: {chapter: 3, verse: 21}
+  angle: "A parent, boss or elder discovering that their habits are being inherited."
+
+- id: gita-12-13
+  title: "Without hatred toward anyone"
+  type: gita
+  ref: {chapter: 12, verse: 13}
+  angle: "A grudge that has quietly run someone's life."
+
+- id: gita-5-18
+  title: "Seeing the same in everyone"
+  type: gita
+  ref: {chapter: 5, verse: 18}
+  angle: "How we treat the waiter, the clerk, the stranger, and what that reveals."
+
+- id: gita-17-15
+  title: "Words that do not wound"
+  type: gita
+  ref: {chapter: 17, verse: 15}
+  angle: "One sentence said in anger that outlived the argument."
+
+- id: gita-6-17
+  title: "The balanced life"
+  type: gita
+  ref: {chapter: 6, verse: 17}
+  angle: "Burnout on one side, laziness on the other, and the middle path."
+
+- id: gita-18-48
+  title: "Every work has its flaw"
+  type: gita
+  ref: {chapter: 18, verse: 48}
+  angle: "Waiting for the perfect moment or the flawless plan before starting."
+
+- id: gita-2-70
+  title: "The ocean that stays still"
+  type: gita
+  ref: {chapter: 2, verse: 70}
+  angle: "Desires that keep arriving; the person who is not shaken by them."
+
+- id: gita-4-38
+  title: "Nothing purifies like knowing"
+  type: gita
+  ref: {chapter: 4, verse: 38}
+  angle: "The difference between information and real understanding."
+
+- id: gita-9-22
+  title: "I carry what you lack"
+  type: gita
+  ref: {chapter: 9, verse: 22}
+  angle: "Trust, and what it feels like to be looked after while still working."
+
+- id: gita-18-66
+  title: "Let go of everything and come"
+  type: gita
+  ref: {chapter: 18, verse: 66}
+  angle: "The final instruction; what it means to put the burden down."
